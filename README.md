@@ -1,3 +1,31 @@
+## About this fork
+This fork is for reproduction of original repository's great results.  
+
+### How to
+In Google Colab.  
+Basically no touch to code for precise reproduction.
+
+### Vague things
+- version of dependencies
+
+### Resolved question
+- data: Qiita & issues
+  - mp3 from YouTube[^ref1]
+- Preprocessing out of code
+  - [えこでこツール(EcoDecoTooL)](https://ja.osdn.net/projects/ecodecotool/)@1.14[^ref1]
+    - mp3 => wav, 16,000Hz, 16bit, mono(1ch), 89.0dB
+
+[^ref1]: [official repo issue](https://github.com/pstuvwx/Deep_VoiceChanger/issues/6#issuecomment-479356681)
+
+### ToDo
+- Check out-of-code preprocessing validity with Reference(repo's a.wav & b.wav)
+  - a.wav is part of ["【LIVE】今夜はフリートーク♪【 Streaming #02】"](https://www.youtube.com/watch?v=CPvD2qz-rG4&feature=youtu.be&t=444)
+  - b.wav is part of ["LINE公式スタンプ発売なのじゃー！【021】"](https://www.youtube.com/watch?v=lllCzDqlExo)
+- Colab-nize
+
+#
+below is original README.md
+
 # Deep_VoiceChanger  
 深層学習とかを使って、ボイスチェンジャー作るリポジトリ。  
 A repository to make voice changer using deep learning.  
